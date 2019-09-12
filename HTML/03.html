@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>HTML常用的行级元素</title>
+</head>
+<body>
+    <!--链接标签，a标签，即以a来定义，a标签中有两个属性
+        href属性：跟的是要跳转的网址
+        target属性：_blank  在新窗口打开跳转的页面
+        -->
+        <!--<a href="http://www.baidu.com">链接到百度</a>-->
+        <!--路径问题 在实际开发中建议使用相对路劲，./代表当前目录，../代表上级目录-->
+        <!--绝对路劲 在windows中绝对路劲的根是文件所在的盘符
+            C:\Users\EDZ\PycharmProjects\-\01.html
+        -->
+        <!--通个a标签可以制作锚点-->
+        <a href="./01.html" target="_blank">连接到本地文件(01.html)</a>
+
+    <!--图像标签 img（单标签，不需要闭合）
+        src属性：图片的地址（网络资源或者本地资源）
+        alt属性：用于图片加载失败的替代文字（必须存在）
+        title属性：鼠标悬停在图片上的提示信息（可写可不写）
+        width属性：设置图片的宽度（单位：px）
+        height属性：设置图片的高度
+        注意：一般只给图片设置宽度或高度，高度或宽度会等比例的放大或缩小
+        -->
+        <img src="https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1568288681006&di=95ea1f126158939c4e62aaf9fdf7e4a1&imgtype=0&src=http%3A%2F%2Fpic1.win4000.com%2Fwallpaper%2F2019-02-19%2F5c6bbbe37d46f.jpg" width="500px" alt="这是朱一龙">这是图片标签
+        <img src="本地文件路劲" alt="这是本地文件"><br>
+
+    <!--文本标签-->
+        <!--b标签，加粗，双标签，必须闭合-->
+        <!--i标签，斜体，双标签，需要闭合-->
+        <!--strong标签，具有强调意义的加粗标签-->
+        <!--em标签，具有强调意义的斜体标签-->
+        <b>1987年</b>巴斯应邀赴美访问表演，被世界誉为和平大使，巴斯从此开启文化之旅<br>
+        <b>1990年</b>巴斯作为北京亚运会吉祥物“盼盼”的原型名扬天下<br>
+        <strong>1991年</strong>登录央视春晚，赢得亿万粉丝<br>
+        <strong>2005年</strong>习近平主席访美期间，中国国家品牌形象宣传片“巴斯，向世界人民问好”，登陆美国时代广场<br>
+        <i>2006年</i>国研中心中国企业评价协会和中品国际联合以巴斯为原型，共同打造国家品牌标识——中国印<br>
+        <i>2007年</i>官方为巴斯树立“世界的巴斯 和平的图腾”碑文<br>
+        <em>2008年</em>巴斯文化工程建设在巴斯生活地福州大梦山启动<br>
+        <em>2009年</em>巴斯文化工程成果：巴斯文化论坛<br>
+
+    <!--无语义的行级元素 span 设置后不会对文档有任何影响
+        一般也是配合css使用 来设置文本中的一部分内容
+        -->
+    <span style="color:red">2009年,巴斯文化工程成果：巴斯文化论坛</span><br>
+
+    <!--html中的实体字符 &gt;大于号，&lt;小于号，&nbsp;空格-->
+        10>2;<br>
+        10&gt;2;<br>
+
+    <!--表单标签，通过form来定义表单区域，用来提交数据
+        action属性：数据的提交地址
+        method属性：提交方式，get和post两种方式
+        注意：以上两个属性必须存在
+        -->
+    <form action="" method="">
+        <!--普通文本输入框 {username:1234，sex:0, love:[l,z,p]}-->
+        <!--表单控件
+                type:指定表单类型（普通文本，密码框，单选框，多选框）
+
+                必须要写name属性，作为数据的键
+                -->
+        用户名：<input type="text" name="username" value="1234"><br>
+        密码：<input type="password" name="password"><br>
+        <!--单选框 type="radio",必须有name属性和value属性，并且一组单选框name属性的值必须相同-->
+        性别：<input type="radio" name="sex" value="1">男
+              <input type="radio" name="sex" value="0">女
+        <br>
+        <!--
+            多选框 type="checkbox",必须指定name属性和value属性，并且一组多选框name属性的值要相同
+            -->
+        爱好：<br>
+              <input type="checkbox" name="love[]" value="l">篮球<br>
+              <input type="checkbox" name="love[]" value="z">足球<br>
+              <input type="checkbox" name="love[]" value="y">羽毛球<br>
+        学历：<br>
+              <select name="xl" id="">
+                  <option value="0">小学</option>
+                  <option value="1">初中</option>
+                  <option value="2">高中</option>
+                  <option value="3">大学</option>
+
+        </select>
+    </form>
+</body>
+</html>
