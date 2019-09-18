@@ -1,0 +1,30 @@
+DEBUG:root:This is a debug log.
+INFO:root:This is a info log.
+WARNING:root:This is a warning log.
+ERROR:root:This is a error log.
+CRITICAL:root:This is a critical log.
+DEBUG:root:This is a debug log.
+INFO:root:This is a info log.
+WARNING:root:This is a warning log.
+ERROR:root:This is a error log.
+CRITICAL:root:This is a critical log.
+2019-07-16 14:52:42,712=====DEBUG++++++This is a debug log.
+2019-07-16 14:52:42,712=====INFO++++++This is a info log.
+2019-07-16 14:52:42,712=====WARNING++++++This is a warning log.
+2019-07-16 14:52:42,712=====ERROR++++++This is a error log.
+2019-07-16 14:52:42,712=====CRITICAL++++++This is a critical log.
+2019-07-16 14:52:42,713=====DEBUG++++++This is a debug log.
+2019-07-16 14:52:42,713=====INFO++++++This is a info log.
+2019-07-16 14:52:42,713=====WARNING++++++This is a warning log.
+2019-07-16 14:52:42,713=====ERROR++++++This is a error log.
+2019-07-16 14:52:42,713=====CRITICAL++++++This is a critical log.
+2019-07-16 14:53:07,119=====DEBUG++++++This is a debug log.
+2019-07-16 14:53:07,119=====INFO++++++This is a info log.
+2019-07-16 14:53:07,119=====WARNING++++++This is a warning log.
+2019-07-16 14:53:07,120=====ERROR++++++This is a error log.
+2019-07-16 14:53:07,120=====CRITICAL++++++This is a critical log.
+2019-07-16 14:53:07,120=====DEBUG++++++This is a debug log.
+2019-07-16 14:53:07,120=====INFO++++++This is a info log.
+2019-07-16 14:53:07,120=====WARNING++++++This is a warning log.
+2019-07-16 14:53:07,120=====ERROR++++++This is a error log.
+2019-07-16 14:53:07,120=====CRITICAL++++++This is a critical log.
